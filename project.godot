@@ -105,6 +105,22 @@ config/icon="res://icon.png"
 [autoload]
 
 Nakama="*res://addons/com.heroiclabs.nakama/Nakama.gd"
+Comm="*res://src/Autoload/Comm.gd"
+UID="*res://src/Autoload/UID.gd"
+
+[display]
+
+window/size/width=540
+window/size/height=960
+window/size/test_width=360
+window/size/test_height=640
+window/handheld/orientation="portrait"
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
