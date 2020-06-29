@@ -1,6 +1,6 @@
 extends Control
 
-signal selected
+signal selected(id)
 
 var test_id := ["21d044b8-0d43-4228-9cc9-72423b5ffb76",
 				"94c0a38d-8ed1-4e5b-82fe-2fbe5e6271ed",
@@ -17,7 +17,7 @@ func _ready():
 		$VBox/List.add_item(id, null, true)
 
 func _on_List_item_activated(index):
-	emit_signal("selected")
+	emit_signal("selected", test_id[index])
 	queue_free()
 
 func _on_BtnJoin_pressed():
