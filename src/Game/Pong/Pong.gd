@@ -15,3 +15,5 @@ func _on_BtnLeave_pressed() -> void:
 func _on_totalplayer_updated(total) -> void:
 	$UI/Control/Online.text = String(total)
 
+func _on_BtnFindMatch_pressed():
+	pass # Replace with function body.

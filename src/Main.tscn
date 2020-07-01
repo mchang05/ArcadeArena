@@ -6,7 +6,7 @@
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 1 )
-ip = "192.168.1.110"
+ip = "192.168.0.169"
 
 [node name="Game" type="Node2D" parent="."]
 
